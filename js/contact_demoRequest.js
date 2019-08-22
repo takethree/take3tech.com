@@ -4,7 +4,7 @@
   */
 $(function() {
 
- $("input,select,textarea").jqBootstrapValidation(
+ $("#demo-request input, #demo-request select, #demo-request textarea").jqBootstrapValidation(
     {
      preventSubmit: true,
      submitError: function($form, event, errors) {
