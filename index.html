@@ -20,6 +20,12 @@
 
     <title>Take Three Technologies</title>
 
+	<script>
+		if (location.protocol != 'https:')
+		{
+		 location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+		}	
+	</script>
     
     <!-- Favicon Icons for mutiple devices -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
